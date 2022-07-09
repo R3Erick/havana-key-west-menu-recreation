@@ -119,6 +119,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+havana_menu_env/
 
 # Spyder project settings
 .spyderproject
