@@ -1,0 +1,160 @@
+
+@font-face {
+    font-family: Venturis, serif;
+    src: url(/static/fonts/VenturisADFCd-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: PassionOne;
+    src: url(/static/fonts/PassionOne-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: Arabella;
+    src: url(/static/fonts/Arabella.ttf) format('truetype');
+}
+@font-face {
+    font-family: Heineken;
+    src: url(/static/fonts/HEINEKEN.ttf) format('truetype');
+}
+@font-face {
+    font-family: Ogirema;
+    src: url(/static/fonts/OgiremaBold.ttf) format('truetype');
+}
+body {
+    font-family: Venturis, serif;
+    background-image: url(https://i.pinimg.com/originals/a1/a6/61/a1a6612e97b225fff97c7a33cdb11e6f.jpg);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.prologue-line h2, .prologue-line p, a:active, a:visited, a {
+    display: inline-block;
+    color: #f1b94a;
+    margin: 0.5px;
+    margin-left: 2%;
+}
+.prologue-line h2 {font-size: 25px;}
+.prologue-line a:hover {color: #d6a442}
+.prologue-left-text {
+    text-align: left;
+    width: 69%;
+}
+.prologue-right-text {
+    text-align: right;
+    width: 24.5%;
+}
+.mini-fraction {font-size: 15px;}
+.name-elipse {
+    width: 400px;
+    height: 160px;
+    border-radius: 100%;
+    background-color: #283562;
+    margin: 0 auto;
+    margin-top: -1570px;
+    border: solid 2px white;
+    box-shadow: 1px 6px 10px #111111;
+}
+.name-elipse h1, .name-elipse h2 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.name-elipse h1 {
+    font-family: PassionOne;
+    padding-top: 20px;
+    margin-top: 0px;
+    font-size: 100px;
+}
+.name-elipse h2 {
+    font-family: Arabella;
+    margin-top: -30px;
+    font-size: 48px;
+}
+.menu {
+    background: linear-gradient(0deg, #bc9344 0%, #e3c06c 25%, #c8a559 50%, #e3c06c 75%, #bc9344 100%); 
+    width: 92%;
+    margin: 0 auto;
+    padding: 0 2%;
+    border: solid 2px white;
+}
+.menu h1 {
+    font-family: Heineken;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.menu h2 {
+    font-family: Ogirema;
+    text-align: center;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+.menu p {
+    font-family: Ogirema;
+    font-size: 20px;
+    margin: 1px 0 1px 0;
+}
+.menu .centered-information {
+    font-family: Ogirema;
+    font-size: 14px;
+    margin: 1px 0 1px 40px;
+    text-align: center;
+    font-style: italic;
+}
+img {
+    border: solid 2px white;
+    margin: 10px 0 10px 0;
+}
+.menu .menu-column {
+    display: inline-table;
+    width: 29%;
+    padding: 2%;
+    margin-top: -20px;
+}
+.menu .middle-space {
+    margin-top: 50px;
+}
+.menu .dish-information {
+    font-family: Venturis;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 1%;
+}
+.img-top-menu {
+    vertical-align: text-top;
+    margin-top: -3%;
+}
+.map-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: -10px 93%;
+    background-color: black;
+    border: solid 2px white;
+    border: solid 1px orangered;
+}
+.map-circle h1 {
+    font-family: PassionOne;
+    color: white;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 42px;
+}
+.map-circle p {
+    font-family: Ogirema;
+    color: orangered;
+    text-align: center;
+    margin-top: -1px;
+    font-size: 17px;
+}
+footer h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Venturis, serif;
+    margin-top: -45px;
+}
